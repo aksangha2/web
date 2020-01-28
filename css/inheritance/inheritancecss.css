@@ -1,0 +1,19 @@
+*{
+    background-color: lightcyan;   /* '*' applies to all*/
+}
+#id1{
+    background-color: lightgreen;  /*applies to id id1*/
+}
+div{
+    background-color: lightseagreen;    /*applies to particular element */
+}
+.cl1{
+    background-color: lightcoral;    /*applies to class cl1*/
+}
+/* order : *<elements<class<id */
+ #id1{
+     background-color: lightsteelblue;  /*if write same thing twice*/
+ }
+ .cl1{
+     background-color: lightskyblue;
+ }
