@@ -1,4 +1,4 @@
-.second{
+/*.second{
     display:none
 }
 .first:hover .second{
@@ -8,5 +8,14 @@
     display: none;
 }
 .third:hover .fourth{
+    display: block;
+}*/
+ul ul{
+    display:none;
+}
+li:hover{
+    color: red;
+}
+li:hover >ul{
     display: block;
 }
