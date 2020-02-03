@@ -26,7 +26,8 @@ div{
         background-color: green;
     }
 }
-/*keyframe animation property is to change css property w.r.t. time*,can be applied to any html element/
+/*keyframe animation property is to change css 
+property w.r.t. time*,can be applied to any html element/
 /*#div2{
     animation: slide;
     animation-duration: 2s;
