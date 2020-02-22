@@ -1,0 +1,32 @@
+.container {
+    background-color: pink;
+    height:600px;
+    display: flex;
+    /*flex-direction: column-reverse;*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.item{
+    background-color: lightblue;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    font-size: 30px;
+    margin: 20px;
+    /*flex-grow: 1; takes entire screen size available*/
+   /* flex-shrink: ; /*with no-wrap will tell which element will shrink to what*/
+}
+#item13{
+    order: 1;
+    flex-grow: 5;  /*this will grow 5 times more tha item12 */
+}
+#item12{
+    flex-grow: 1;  
+    order: -2;
+}
+#item11{
+    order: 2;
+    align-self: flex-end;
+}
