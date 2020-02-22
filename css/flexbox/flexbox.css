@@ -28,5 +28,5 @@
 }
 #item11{
     order: 2;
-    align-self: flex-end;
+    align-self: flex-end;/*work with no wrap only*/
 }

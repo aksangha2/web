@@ -1,0 +1,22 @@
+#header1{
+    display: flex;
+    background-image: url("header.png");
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+#htext{
+    color: white;
+    font-size: 20px;
+}
+#btn{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(16, 11, 20);
+    color: white;
+    border: honeydew;
+    border-width: 40px;
+}
