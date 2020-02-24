@@ -1,0 +1,44 @@
+#samplediv{
+    height: 300px;
+    width: 300px;
+    background-color: indianred;
+}
+@media (max-width:1500px)
+{
+    #samplediv{
+        background-color: indigo;
+    }
+}
+@media (max-width:750px)
+{
+    #samplediv{
+        background-color: rgb(223, 201, 9);
+    }
+}
+@media (max-width:1000px)
+{
+    #samplediv{
+        background-color:green;      /*one that is written afterwards get applied if qualifier of both true
+                                                     can apply other condition also "and (min-width:750px)"*/
+    }
+}
+
+@media (max-width:500px)
+{
+    #samplediv{
+        width: 100px;
+        background-color: rgb(130, 0, 17);
+    }
+}
+
+@media (min-width:750px) and (orientation:landscape){
+    /*for say mobile devices*/
+}
+
+@media (not(color)) {
+    /*for devices which do not support color*/
+    #samplediv{
+        background-color:gray;
+    }
+}
+
