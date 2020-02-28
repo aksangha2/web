@@ -1,3 +1,5 @@
+//const has block scope
+
 const x=10
 /*function myFun(){
   x+=1;
