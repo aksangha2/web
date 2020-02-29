@@ -31,16 +31,16 @@ div{
 .slider_bg_1 {
     background-image: url(background_img.jpg);
 }
-.align-items-center {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-.d-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
 .slider_text{
     color: white;
+}
+.third_icons{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.circle
+{
+        width: 250px;
+        height: 200px;
+        background-color: rgb(231, 174, 50);
 }
