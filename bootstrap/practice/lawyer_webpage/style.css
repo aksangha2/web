@@ -44,3 +44,30 @@ div{
         height: 200px;
         background-color: rgb(231, 174, 50);
 }
+.columns_4{
+    min-width: 200px;
+    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url(background_img.jpg);
+
+}
+.link_x{
+    display: none;
+}
+.columns_4:hover .link_x{
+    display: block;
+    transition: 0.3s;
+}
+.columns_4:hover h3{
+    transform: translateY(-20px);
+    transition: 0.3s;
+}
+.columns_4:hover p{
+    transform: translateY(-20px);
+    transition: 0.3s;
+}
