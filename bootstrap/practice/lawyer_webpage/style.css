@@ -71,3 +71,17 @@ div{
     transform: translateY(-20px);
     transition: 0.3s;
 }
+
+.boxed-btn5 {
+    background: #F2C64D;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 44px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+    border: 1px solid #F2C64D;
+    text-align: center;
+    text-transform: capitalize;
+}
