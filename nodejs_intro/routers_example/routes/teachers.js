@@ -16,4 +16,12 @@ route.get("/add",(req,res)=>{
 })
 route.get("/:id",(req,res)=>(res.send(teachers[req.params.id])))
 
+/*if /add after /:id (id need to be int )
+route.get("/:id",(req,res)=>{
+    if(isNan(parseInt(req.params.id))){
+        next();
+    }
+    res.send(teachers[req.params.id])
+})   */
+
 module.exports=route
